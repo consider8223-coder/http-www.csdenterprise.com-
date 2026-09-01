@@ -115,7 +115,7 @@ img { max-width: 100%; display: block; }
 .mobile-menu nav a { padding: 15px 20px; border-bottom: 1px solid var(--sky-line); color: var(--deep-blue); font-weight: 700; }
 
 .home-hero { position: relative; min-height: 680px; overflow: hidden; background: var(--deepest-blue); color: var(--white); }
-.hero-image { position: absolute; inset: 0; background-image: url('/images/csd-hero.png'); background-position: center; background-size: cover; }
+.hero-image { position: absolute; inset: 0; background-image: var(--hero-image); background-position: center; background-size: cover; }
 .hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(3,31,56,.98) 0%, rgba(3,31,56,.91) 40%, rgba(3,31,56,.30) 78%, rgba(3,31,56,.10) 100%); }
 .hero-layout { position: relative; z-index: 2; display: flex; min-height: 610px; align-items: center; padding-top: 30px; padding-bottom: 90px; }
 .hero-copy { max-width: 715px; }
@@ -154,7 +154,7 @@ img { max-width: 100%; display: block; }
 .closing-actions { display: flex; align-items: center; gap: 26px; margin-top: 35px; }
 
 .page-hero { position: relative; overflow: hidden; background: var(--deepest-blue); color: var(--white); }
-.page-hero::before { position: absolute; inset: 0; background-image: linear-gradient(90deg, rgba(3,31,56,.97), rgba(3,31,56,.78)), url('/images/csd-hero.png'); background-position: center; background-size: cover; content: ""; }
+.page-hero::before { position: absolute; inset: 0; background-image: linear-gradient(90deg, rgba(3,31,56,.97), rgba(3,31,56,.78)), var(--hero-image); background-position: center; background-size: cover; content: ""; }
 .page-hero::after { position: absolute; right: -70px; bottom: -150px; width: 370px; height: 370px; border: 90px solid rgba(255,111,97,.12); border-radius: 50%; content: ""; }
 .page-hero-content { position: relative; z-index: 2; display: flex; min-height: 480px; flex-direction: column; justify-content: center; padding-top: 65px; padding-bottom: 70px; }
 .page-hero h1 { max-width: 950px; margin: 0; font-size: clamp(3rem, 6vw, 5.6rem); letter-spacing: -.055em; line-height: .98; }
