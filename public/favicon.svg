@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <path d="M6 4h39l13 13v43H19L6 47Z" fill="#052d50"/>
+  <path d="M45 4v13h13Z" fill="#ff6f61"/>
+  <path d="M12 10h30l10 10v34H22L12 44Z" fill="none" stroke="#fff" stroke-opacity=".34" stroke-width="1.25"/>
+  <text x="31" y="38" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="900" letter-spacing=".7" fill="#fff">CSD</text>
+  <path d="M15 45c7 7 25 9 36-2" fill="none" stroke="#ff6f61" stroke-linecap="round" stroke-width="2.8"/>
+  <circle cx="51" cy="43" r="2.7" fill="#ff6f61"/>
+</svg>
